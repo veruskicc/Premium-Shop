@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="sajt.css" type="text/css">
+<link href='https://fonts.googleapis.com/css?family=Advent Pro' rel='stylesheet'>
+</head>
+<body style="background-image:url('planine.jpg')">
+<div class="prvi">
+<h1 class="naslov">Premium Shop</h1>
+</div>
+<div>
+<ul>
+<li><a href="strana1.html">Početna strana</a></li>
+<li class="padajucimeni"><a href="strana8.html">Brendovi</a>
+<ul class="padajucimenisadrzaj">
+<li><a href="strana2.html">Samsung</a></li>
+<li><a href="strana3.html">Apple</a></li>
+<li><a href="strana4.html">Huawei</a></li>
+<li><a href="strana5.html">Xiaomi</a></li>
+<li><a href="strana6.html">Google</a></li>
+</ul>
+</li>
+<li><a href="strana9.html">O nama/Kontakt</a></li>
+<li style="float:right"><a href="strana7.html">Kupovina</a></li>
+</ul>
+</div>
+<br>
+<div class="cetvrti">
+<center>
+<form autocomplete="on" class="forma" name="forma" method="post" id="forma">
+<p class="paragraf1">Ime: <input type="text" name="ime"></p>
+<p class="paragraf1">Prezime: <input type="text" name="prezime"></p>
+<p class="paragraf1">E-mail: <input type="email" name="mejl"></p>
+<p class="paragraf1">Password: <input type="password" name="pass"></p>
+<p class="paragraf1">Ponovite password: <input type="password" name="pass2"></p>
+<p class="paragraf1">Izaberite uređaj:<br>
+<select name="model">
+<option value="A8s">Samsung Galaxy A8s</option>
+<option value="A6s">Samsung Galaxy A6s</option>
+<option value="A9">Samsung Galaxy A9 2018</option>
+<option value="A7">Samsung Galaxy A7 2018</option>
+<option value="Note9">Samsung Galaxy Note 9</option>
+<option value="S9plus">Samsung Galaxy S9 Plus</option>
+<option value="S9">Samsung Galaxy S9</option>
+<option value="Note8">Samsung Galaxy Note 8</option>
+<option value="XSMax">Apple IPhone XS Max</option>
+<option value="XS">Apple IPhone XS</option>
+<option value="XR">Apple IPhone XR</option>
+<option value="X">Apple IPhone X</option>
+<option value="8Plus">Apple IPhone 8 Plus</option>
+<option value="8">Apple IPhone 8</option>
+<option value="M20X">Huawei Mate 20X</option>
+<option value="M20Pro">Huawei Mate 20 Pro</option>
+<option value="M20">Huawei Mate 20</option>
+<option value="P20Pro">Huawei P20 Pro</option>
+<option value="P20">Huawei P20</option>
+<option value="MRS">Huawei Mate RS Porsche Design</option>
+<option value="MiM3">Xiaomi Mi Mix 3</option>
+<option value="Mi8Pro">Xiaomi Mi 8 Pro</option>
+<option value="Mi8E">Xiaomi Mi 8 Explorer</option>
+<option value="Mi8">Xiaomi Mi 8</option>
+<option value="Mi2s">Xiaomi Mi Mix 2S</option>
+<option value="MiM2">Xiaomi Mi Mix 2</option>
+<option value="GP3XL">Google Pixel 3 XL</option>
+<option value="GP3">Google Pixel 3</option>
+<option value="GP2XL">Google Pixel 2 XL</option>
+<option value="GP2">Google Pixel 2</option>
+<option value="GPXL">Google Pixel XL</option>
+<option value="GP">Google Pixel</option>
+</select></p>
+<input type="submit" value="Prosledi" onClick="provera()">
+<input type="reset" value="Poništi">
+</form>
+</center>
+</div>
+<script src="javascript.js"></script>
+</body>
+</html>
+

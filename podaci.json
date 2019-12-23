@@ -1,0 +1,73 @@
+var Samsung={"A8s":
+{
+	"Ekran":"6.4 inca",
+	"Rezolucija":"1080x2340px",
+	"Kamera":"24MP",
+	"Ram":"8GB",
+	"Baterija":"3400mah"
+},
+"A6s":
+{
+	"Ekran":"6.0 inca",
+	"Rezolucija":"1080x2160px",
+	"Kamera":"12MP",
+	"Ram":"6GB",
+	"Baterija":"3300mah"
+},
+"A9 2018":
+{
+	"Ekran":"6.3 inca",
+	"Rezolucija":"1080x2220px",
+	"Kamera":"12MP",
+	"Ram":"8GB",
+	"Baterija":"3800mah"
+},
+"A7 2018":
+{
+	"Ekran":"6.0 inca",
+	"Rezolucija":"1080x2220px",
+	"Kamera":"24MP",
+	"Ram":"6GB",
+	"Baterija":"3300mah"
+},
+"Note 9":
+{
+	"Ekran":"6.4 inca",
+	"Rezolucija":"1440x2960px",
+	"Kamera":"12MP",
+	"Ram":"8GB",
+	"Baterija":"4000mah"
+},
+"S9 Plus":
+{
+	"Ekran":"6.2 inca",
+	"Rezolucija":"1440x2960px",
+	"Kamera":"12MP",
+	"Ram":"6GB",
+	"Baterija":"3500mah"
+},
+"S9":
+{
+	"Ekran":"5.8 inca",
+	"Rezolucija":"1440x2960px",
+	"Kamera":"12MP",
+	"Ram":"4GB",
+	"Baterija":"3000mah"
+},
+"Note 8":
+{
+	"Ekran":"6.3 inca",
+	"Rezolucija":"1440x2960px",
+	"Kamera":"12MP",
+	"Ram":"6GB",
+	"Baterija":"3300mah"
+},
+"S8 plus":
+{
+	"Ekran":"6.2 inca",
+	"Rezolucija":"1440x2960px",
+	"Kamera":"12MP",
+	"Ram":"6GB",
+	"Baterija":"3500mah"
+},
+}
